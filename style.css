@@ -1,0 +1,64 @@
+body {
+  font-family: Quicksand, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.text-storage {
+  display: flex;
+  background-color: azure;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400;
+  height: 150;
+  margin: 20;
+}
+
+.text-handler {
+  width: 400;
+  outline: none;
+  border-radius: 3px;
+  border-color: #4fb3d5;
+}
+
+.user-form-text {
+  height: 70;
+}
+
+.user-form-submit {
+  height: 30;
+  background-color: #4fb3d5;
+}
+
+.saved-text-container {
+  width: 400;
+  background-color: aliceblue;
+}
+
+.saved-text-title {
+  text-align: center;
+}
+
+.remove-button {
+  margin-right: 20;
+  font-weight: 600;
+  color: #e97474;
+  float: right;
+}
+
+.remove-button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
